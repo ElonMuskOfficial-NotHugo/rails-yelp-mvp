@@ -13,3 +13,76 @@
  *= require_tree .
  *= require_self
  */
+/* Custom CSS for styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-select {
+  background-color: #E9E3E6;
+}
+
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: black;
+  background-color: #E9E3E6;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+  border-color: #c9302c;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+body {
+  background-color: #9A8F97;
+  margin: 0;
+}
+
+.container {
+  background-color: #C3BABA;
+  padding: 20px
+}
+
+
+.star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  margin-right: 5px;
+}
+
+
+.star.filled {
+  background: #fff;
+}
